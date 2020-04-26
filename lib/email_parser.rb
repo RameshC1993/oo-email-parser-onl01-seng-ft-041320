@@ -20,6 +20,6 @@ class EmailParser
       end
       
     end
-    
+    return result 
   end
 end
