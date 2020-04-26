@@ -12,9 +12,7 @@ class EmailParser
   
   def parses 
     newarr = emails.split(" ")
-    newarr.each do  
-      
-    end
+    newarr.each
     
   end
 end
