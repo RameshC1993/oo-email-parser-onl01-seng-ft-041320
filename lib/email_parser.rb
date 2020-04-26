@@ -11,8 +11,15 @@ class EmailParser
   end
   
   def parses 
+    result  = []
     newarr = emails.split(" ")
-    newarr.each {|x| x.split (",")} 
+    newarr.each do |x|
+      parsedemail = x.split(",")[0]
+      if !result.include?(parsedemail)
+        result << parsedemail
+      end
+      
+    end
     
   end
 end
