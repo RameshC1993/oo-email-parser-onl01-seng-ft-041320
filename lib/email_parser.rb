@@ -11,6 +11,7 @@ class EmailParser
   end
   
   def parses 
+    newarr = emails.split(" ")
     
   end
 end
