@@ -10,7 +10,7 @@ class EmailAddressParser
     @emails = emails
   end
   
-  def parses 
+  def parse
     result  = []
     newarr = emails.split(" ")
     newarr.each do |x|
